@@ -1,0 +1,19 @@
+{
+  "name": "maestro-discord",
+  "version": "1.1.0",
+  "description": "Simple minimal moderator bot adapted from An Idiot's Guide.",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Angel (Zyplos)",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "discord.js": "^12.2.0"
+  },
+  "engines": {
+    "node": "11.x"
+  }
+}
